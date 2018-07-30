@@ -1,0 +1,72 @@
+These are my notes from code academy on javascript +++++++++++
+
+I. Introduction to JavaScript
+	A. Properties 
+		1. console.log(); is used to print(log) to the console.
+			a. You can use math operations inside like +, -, /, *
+		2. new pieces of data are saved as instances.
+			a. 'Hello" is saved as a string instance in console.log('hello');
+		3. You can append information in the log with .<propertyname>
+			a. This allows you to find details of the instance.
+	B. Built-in methods
+		1. Built-in methods are property functions appended to the end.
+			a. Like the property addition, but allows to perform other tasks.
+			b. .trim() allows you to remove whitespace from strings.
+		* Use mozilla developer website for more help on coding. 
+	C. Libraries
+		1. Libraries allow you to use methods without creating an instance.
+			a. Math is a library that can be used.
+			b. A method is anything that follows a dot and has () at the end.
+				1. Actions performed on objects.
+		2. Libraries = Collection of methods.
+	D. Comments
+		1. Both // and /**/ work as comments.
+
+II. Variables
+
+	A. Variables
+		1. 'const' and 'let' are used to define variables.
+			a. Afterwards, can run variables in console.log for printout.
+			b. 'const' creates a variabe that cannot change.
+			c. 'let' variables can be reassigned.
+			c. Variables are just like in python. Variable = Information
+		2. Camelcasing = words where spaces are removed and the first letter is capitalized.
+			a. FedEx.
+	B. Mathematical Assignment Operators
+		1. Can use operators like --, ++, += when referring to a variable and assigning new value.
+	C. String Interpolation
+		1. You can concatenate strings and replace them with variables that hold strings.
+		2. Backticks '`', can be used in place of quotation marks.
+		3. ${variable} will print the variable into the string easily.
+
+III. Control Flow
+	
+	A. if/else statements
+		1. Blocks are written like in python or assembly.
+		2. Conditions can be falsy or truthy based on values.
+			a. 0 is considered a falsy values. Just like in  Verilog.
+		3. false, 0, -0, '', null, undefined, and NaN are considered false values.
+		4. Can use ! like in Verilog.
+		5. To check if things are equal to each other, use '==='.
+	B. Logical Operators
+		1. Can use &&, or || like in Verilog.
+	C. Switch Statements
+		1. Switch statements work like in C++.
+			a. Standard format is switch () {
+					case 'casephrase':
+						console.log('output when case is selected');
+						break;
+			b. Think of scanning grocery at the store and how it outputs the prices.
+	D. Ternary Operator
+		1. Same as in verilog where condition ? true : false;
+
+III. Functions
+
+	A. Introduction to functions
+		1. functions are created with const at start.
+		2. () => indicates the variable stores a function. Called arrow function syntax.
+			a. Typical layout: const <functionname> = (parameter) => {body};
+		3. Access the function by calling it: <functionname>();
+		4. You can set multiple parameters.
+		5. return after a function is typical, then use log around inputs to see the output.
+			a. Makes the code cleaner and more flexible.
