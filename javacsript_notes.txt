@@ -70,3 +70,38 @@ III. Functions
 		4. You can set multiple parameters.
 		5. return after a function is typical, then use log around inputs to see the output.
 			a. Makes the code cleaner and more flexible.
+	B. Return II
+		1. YOu can have function that call other functions within the body.
+			a. When done, call the biggest function that calls the other functions.
+	C. Function Declarations
+		1. A function declarations require the keyword 'function' beforehand.
+			a. Typical function declaration design: function <functionname/ function identifier>() {}
+				1. Function declarations do not end in a semi-colon.
+	D. Function Expressions
+		1. The function declaration is set to a variable function and the function name is ommitted.
+			a. const <functionname> = function (parameters) {};
+				1. Will need the semi-colon since it is set to a variable funtion.
+		2. The provious format being used was called arrow function.
+	E. Arrow Functions
+		1. Concise body = the most condensed form of a function.
+		2. Functions with a single parameter should not use (). Multiple parameters should.
+		3. A function with a single-line block is automatically returned and does not need the return function.
+			a. A function with one line block also does not need brackets.
+			* Parameters passed in the call function are called arguements.
+	F. Global Scope
+		1. Global scopes are defined outside of curly braces.
+			a. Can be accessed by any function in the program.
+		2. It's better to define local variables so fucntions don't collide.
+	G. For loop
+		1. For loop follows the following: for(initial value, comparitor, 
+increment)
+
+IV. Arrays
+
+	A. Introduction
+		1. Arrays are the way of making a list.
+		2. Arrays are made and printed like variables.
+		3. You can access strings in arrays and characters because 
+everything is technically stored in an array.
+			a. let array1 = ['test1', 'test2']; console.log(array1[1]); = 
+test1.
