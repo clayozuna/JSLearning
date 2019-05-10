@@ -1,8 +1,8 @@
-These are my notes from code academy on javascript +++++++++++
+++++++++++++ Notes from code academy on javascript +++++++++++
 
 I. Introduction to JavaScript
 	A. Properties 
-		1. console.log(); is used to print(log) to the console.
+		1. console.log(); is used to print(log) to the console. Console is object and .log is method/action/property. console.log() == print. The dot(.) is an operator.
 			a. You can use math operations inside like +, -, /, *
 		2. new pieces of data are saved as instances.
 			a. 'Hello" is saved as a string instance in console.log('hello');
@@ -16,7 +16,7 @@ I. Introduction to JavaScript
 	C. Libraries
 		1. Libraries allow you to use methods without creating an instance.
 			a. Math is a library that can be used.
-			b. A method is anything that follows a dot and has () at the end.
+			b. A method is anything that follows a dot and has () at the end. Methods are actions.
 				1. Actions performed on objects.
 		2. Libraries = Collection of methods.
 	D. Comments
@@ -37,7 +37,7 @@ II. Variables
 	C. String Interpolation
 		1. You can concatenate strings and replace them with variables that hold strings.
 		2. Backticks '`', can be used in place of quotation marks.
-		3. ${variable} will print the variable into the string easily.
+		3. ${variable} will print the variable into the string easily. Called a temporal literal.
 
 III. Control Flow
 	
@@ -105,3 +105,6 @@ IV. Arrays
 everything is technically stored in an array.
 			a. let array1 = ['test1', 'test2']; console.log(array1[1]); = 
 test1.
+	B. Breezy notes from section
+		1. Can use .push(), .pop(), and .length to push and pop to end, and check length of array.
+		2. Methods are the lifeblood of JavaScript.
